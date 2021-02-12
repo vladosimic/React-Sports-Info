@@ -1,0 +1,57 @@
+.team-cont img {
+  max-width: 100%;
+  width: 300px;
+}
+
+.social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #2f5375;
+  padding: 20px;
+}
+
+.social-media a {
+  font-size: 30px;
+  color: White;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-media svg {
+  margin-top: 10px;
+}
+
+.social-media a:hover {
+  color: #e7d958;
+}
+
+.teamsLeague {
+  text-align: center;
+}
+
+.teamsDetails {
+  background: rgba(20, 15, 94, 0.637);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.teamsDetails:hover {
+  background: #cf783a;
+}
+
+.teamsDetails a {
+  color: white;
+}
+
+.teamsDetails h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=teamDetails.css.map */

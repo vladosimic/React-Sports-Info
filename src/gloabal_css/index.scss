@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 34px;
+  margin-bottom: 40px;
+}
+h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}
+.ptb-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.ptb-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul li {
+  list-style: none;
+}
+
+.btn {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  background: rgba(22, 31, 105, 0.808);
+  padding: 10px 20px;
+  color: white;
+  margin-top: 20px;
+  display: inline-block;
+}
+.btn:hover {
+  background: rgba(46, 38, 38, 0.801);
+}
+.grid-2,
+.grid-3,
+.grid-4 {
+  display: grid;
+  grid-gap: 15px;
+}
+.grid-2 {
+  grid-template-columns: 1fr 1fr;
+}
+.grid-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-4 {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width: 768px) {
+  .grid-3 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+  .grid-4 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .navbar h2 {
+    margin: 10px 0 !important;
+    text-align: center;
+  }
+  .nav-links {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .App {
+    margin-top: 100px !important;
+  }
+  .sport-list {
+    padding: 50px 30px !important;
+  }
+  h1 {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+  .overlay-sports {
+    visibility: visible !important;
+  }
+  p {
+    font-size: 14px;
+  }
+}

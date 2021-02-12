@@ -1,0 +1,36 @@
+.App {
+  margin-top: 200px;
+}
+
+.navbar {
+  -webkit-box-shadow: 0px 0px 10px #9eaaa6;
+          box-shadow: 0px 0px 10px #9eaaa6;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  background: white;
+}
+
+.nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: space-around;
+      -ms-flex-align: space-around;
+          align-items: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.nav-links li {
+  margin-right: 10px;
+}
+
+.navbar h2 {
+  margin: 20px 0;
+}
+/*# sourceMappingURL=Nav.css.map */

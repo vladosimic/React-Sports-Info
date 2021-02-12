@@ -1,0 +1,39 @@
+.team-cont img {
+  max-width: 100%;
+  width: 300px;
+}
+.social-media {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: rgb(47, 83, 117);
+  padding: 20px;
+}
+.social-media a {
+  font-size: 30px;
+  color: White;
+  transition: all 0.2s;
+}
+.social-media svg {
+  margin-top: 10px;
+}
+.social-media a:hover {
+  color: rgb(231, 217, 88);
+}
+.teamsLeague {
+  text-align: center;
+}
+.teamsDetails {
+  background: rgba(20, 15, 94, 0.637);
+  transition: all 0.2s;
+}
+.teamsDetails:hover {
+  background: rgb(207, 120, 58);
+}
+.teamsDetails a {
+  color: white;
+}
+.teamsDetails h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

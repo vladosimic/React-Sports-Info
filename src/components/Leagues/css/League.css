@@ -1,0 +1,38 @@
+select {
+  border: none;
+  background: #221e42;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form-card {
+  background: rgba(218, 210, 210, 0.555);
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.form-results {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form-results a:hover {
+  background: rgba(54, 45, 45, 0.096);
+}
+
+.league-details img {
+  max-width: 100%;
+  width: 200px;
+  height: 200px;
+}
+/*# sourceMappingURL=League.css.map */
